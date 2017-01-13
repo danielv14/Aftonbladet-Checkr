@@ -20,8 +20,13 @@
 <body>
   <div id="app">
 
+    @include('partials.modal')
     @yield('content')
-    
+
   </div>
+
+
+  <!-- Scripts -->
+  <script src="/js/app.js"></script>
 </body>
 </html>

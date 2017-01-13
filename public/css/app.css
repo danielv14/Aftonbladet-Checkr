@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
+@import url("https://fonts.googleapis.com/css?family=Bungee");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -7686,6 +7688,27 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.font-primary {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.font-secondary {
+  font-family: 'Bungee', cursive;
+}
+
+h1.header {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.about-modal-wrapper {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.about-modal-wrapper .btn-modal {
+  color: #636b6f;
 }
 
 /*# sourceMappingURL=app.css.map */

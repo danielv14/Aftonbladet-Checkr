@@ -1,9 +1,32 @@
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.font-primary {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.font-secondary {
+  font-family: 'Bungee', cursive;
+}
+
+h1.header {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.about-modal-wrapper {
+  margin-top: 10px;
+  margin-right: 10px;
+  .btn-modal {
+    color: $text-color;
+  }
+}

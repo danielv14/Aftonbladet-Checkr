@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Checker;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:api');
+// API endpoint to get all fram DB
+Route::get('/checkers', function () {
+  return Checker::all();
+});

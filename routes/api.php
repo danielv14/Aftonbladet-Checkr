@@ -16,5 +16,5 @@ use App\Checker;
 
 // API endpoint to get all fram DB
 Route::get('/checkers', function () {
-  return Checker::all();
+  return Checker::orderBy('created_at', 'desc')->get();
 });

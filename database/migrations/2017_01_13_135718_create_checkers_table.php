@@ -15,7 +15,7 @@ class CreateCheckersTable extends Migration
     {
         Schema::create('checkers', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('checkers-nr');
+            $table->integer('checkers');
             $table->timestamps();
         });
     }

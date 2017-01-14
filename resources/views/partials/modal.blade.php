@@ -14,10 +14,10 @@
       </div>
       <div class="modal-body">
         <h4>
-          Tycker du precis som oss att Aftonbladet ibland använder <span class="checker">&#10004;</span> lite väl mycket?
+          Tycker du precis som oss att Aftonbladet är väldigt duktiga på att använda <span class="checker">&#10004;</span> i sin löpsedel online?
         </h4>
         <p>
-          Den här webbplatsen håller koll på hur många <span class="checker">&#10004;</span> Aftonbladet använder varje dag och presenterar den datan för dig.
+          Aftonbladet Checkr håller koll på hur många <span class="checker">&#10004;</span> Aftonbladet använder varje dag och presenterar den datan på denna webbplats.
         </p>
       </div>
       <div class="modal-footer">

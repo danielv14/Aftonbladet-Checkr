@@ -14,10 +14,10 @@
       </div>
       <div class="modal-body">
         <h4>
-          Tycker du precis som oss att Aftonbladet ibland använder &#10004; lite väl mycket?
+          Tycker du precis som oss att Aftonbladet ibland använder <span class="checker">&#10004;</span> lite väl mycket?
         </h4>
         <p>
-          Den här webbplatsen håller koll på hur många &#10004; Aftonbladet använder varje dag och presenterar den datan för dig.
+          Den här webbplatsen håller koll på hur många <span class="checker">&#10004;</span> Aftonbladet använder varje dag och presenterar den datan för dig.
         </p>
       </div>
       <div class="modal-footer">

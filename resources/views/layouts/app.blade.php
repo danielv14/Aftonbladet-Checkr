@@ -10,6 +10,8 @@
 
   <title>Aftonbladet Checkr</title>
 
+   {!! Charts::assets() !!}
+
   <!-- Scripts -->
   <script>
       window.Laravel = <?php echo json_encode([

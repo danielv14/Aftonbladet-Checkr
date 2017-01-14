@@ -18,8 +18,8 @@ class CheckerController extends Controller
       // set up empty arrays to loop through and pass on to chart
       $checkersNrs = [];
       $dates = [];
-      // Loop though Checker scope for last 30 days and push to empty arrays
-      foreach(Checker::GetSortedLast30Days() as $checker) {
+      // Loop though Checker scope for last x days and push to empty arrays
+      foreach(Checker::GetSortedLastDays() as $checker) {
         // Push values to each array
         array_push($checkersNrs, $checker->checkers);
         array_push($dates, $checker->created_at->format('d/m/Y'));

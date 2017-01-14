@@ -13,9 +13,10 @@
         <h4 class="modal-title">Om Aftonbladet Checkr</h4>
       </div>
       <div class="modal-body">
-        <p>
+        <h4>
           Tycker du precis som oss att Aftonbladet ibland använder &#10004; lite väl mycket?
-          <br>
+        </h4>
+        <p>
           Den här webbplatsen håller koll på hur många &#10004; Aftonbladet använder varje dag och presenterar den datan för dig.
         </p>
       </div>

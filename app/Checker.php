@@ -11,7 +11,7 @@ class Checker extends Model
   public function scopeGetSortedLast30Days($query)
   {
     return $query->where('created_at', '>', Carbon::now()->subDays(30))
-        ->orderBy('created_at')
+        ->oldest()
         ->get();
   }
 }

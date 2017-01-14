@@ -178,6 +178,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Weidner\Goutte\GoutteServiceProvider::class,
+        ConsoleTVs\Charts\ChartsServiceProvider::class,
+
 
     ],
 
@@ -227,6 +229,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Goutte' => Weidner\Goutte\GoutteFacade::class,
+        'Charts' => ConsoleTVs\Charts\Facades\Charts::class,
+
 
     ],
 

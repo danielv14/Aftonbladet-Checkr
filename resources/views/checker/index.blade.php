@@ -2,6 +2,12 @@
 
 @section('content')
   <h1 class="font-primary text-center">
-    &#10004; Aftonbladet Checkr
+    Aftonbladet Checkr
   </h1>
+
+  <div class="container-fluid">
+    <center>
+          {!! $chart->render() !!}
+      </center>
+  </div>
 @endsection

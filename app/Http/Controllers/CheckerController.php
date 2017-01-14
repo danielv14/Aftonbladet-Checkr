@@ -32,7 +32,7 @@ class CheckerController extends Controller
           ->elementLabel('Antal &#10004;')
           ->colors(['#DD3836'])
           ->responsive(true)
-          ->title('Hur många &#10004; har Aftonbladet använt de senaste 30 dagarna egentligen?');
+          ->title('');
 
       return view('checker.index', [
         'chart' => $chart,

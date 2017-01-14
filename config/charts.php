@@ -10,7 +10,7 @@ return [
 
     'default' => [
         'type'          => 'line',
-        'library'       => 'google',
+        'library'       => 'morris',
         'element_label' => 'Element',
         'title'         => 'My chart',
         'height'        => 400,

@@ -14,6 +14,8 @@ require('./bootstrap');
  */
 
 Vue.component('example', require('./components/Example.vue'));
+Vue.component('current-checkers', require('./components/CurrentCheckers.vue'));
+
 
 const app = new Vue({
     el: '#app'

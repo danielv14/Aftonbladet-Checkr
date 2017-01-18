@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'CheckerController@index');
+
+Route::get('/current', 'CheckerController@current');

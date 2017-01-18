@@ -38,4 +38,17 @@ class CheckerController extends Controller
         'chart' => $chart,
       ]);
     }
+
+    // Return json response for how checkers count as of currently
+    public function current()
+    {
+      // Scrape website
+      $crawler = Goutte::request('GET', 'https://www.aftonbladet.se');
+      $checkers = $crawler->filter('.abSymbBo')->count();
+      // return formatted json response for Vue component to pick up
+      return response()
+        ->json([
+          'count' => $checkers
+        ]);
+    }
 }

@@ -7,10 +7,11 @@
 
   <div class="container-fluid">
     <center>
-      <strong class="font-secondary">
+      <h4 class="font-secondary">
         Hur många <span class="checker">&#10004;</span> använder Aftonbladet
         per dag egentligen?
-      </strong>
+      </h4>
+      <current-checkers></current-checkers>
           {!! $chart->render() !!}
       </center>
   </div>
